@@ -32,7 +32,7 @@ This is very alpha! I haven't put the extension in the store yet, so, clone the 
 
 | Color  | Threshold |
 | ------ | --------- |
-| GREEN  | < 100me   |
+| GREEN  | < 100ms   |
 | YELLOW | < 300ms   |
 | RED    | > 300ms   |
 
