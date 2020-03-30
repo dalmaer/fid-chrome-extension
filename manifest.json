@@ -1,0 +1,20 @@
+{
+  "name": "FID",
+  "description": "Show the First Input Delay (FID) score for the given tab",
+  "version": "0.1",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["storage", "tabs", "activeTab", "http://*/*", "https://*/*"],
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "browser_action": {
+    "default_icon": "fid-on.png",
+    "default_title": "Click to toggle the extension on and off"
+  },
+  "manifest_version": 2
+}
