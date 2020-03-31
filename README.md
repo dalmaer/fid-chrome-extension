@@ -54,6 +54,7 @@ CLS: GREEN < 0.1,              YELLOW < 0.25,  RED > 0.25
 
 - Extension is on, but no results for this tab: "FID" with a [green] square
 - Extension is off, but no results for this tab: "FID" with a [red] square
+- FID isn't available (e.g. policy doesn't allow content script injection): "FID" with a [grey] square
 - FID is good: Green background with score in badge
 - FID is adequate: Yellow background with score in badge
 - FID is poor: Red background with score in badge, or "BAD" if the score is greater than 9999 due to a badge only allowing 4 characters
