@@ -1,8 +1,8 @@
 // Create the PerformanceObserver instance.
-const po = new PerformanceObserver(entryList => {
+const po = new PerformanceObserver((entryList) => {
   for (const entry of entryList.getEntries()) {
     // Send the FID to the background page
-    let fid = Math.floor(entry.processingStart - entry.startTime);
+    let fid = Math.round(entry.processingStart - entry.startTime);
     chrome.runtime.sendMessage({ result: fid });
     console.log("FID:", fid, "ms");
     // po.disconnect();
