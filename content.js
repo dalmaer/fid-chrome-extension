@@ -1,5 +1,9 @@
-// guard against double-inclusion
-if (typeof po == "undefined") {
+// guard against double-inclusion and making sure that the chrome runtime is available
+if (
+  typeof po == "undefined" &&
+  typeof chrome.runtime == "object" &&
+  typeof chrome.runtime.sendMessage == "function"
+) {
   // Create the PerformanceObserver instance.
   const po = new PerformanceObserver((entryList) => {
     for (const entry of entryList.getEntries()) {
