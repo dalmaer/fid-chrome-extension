@@ -8,7 +8,7 @@ NOTE: There are other extensions for key metrics such as:
 
 - [LCP (Largest Contentful Paint)](https://github.com/dalmaer/lcp-chrome-extension)
 - [FCP (First Contentful Paint)](https://github.com/dalmaer/fcp-chrome-extension)
-- [CLS (Cumulative Layout Shift)](https://github.com/dalmaer/fid-chrome-extension)
+- [CLS (Cumulative Layout Shift)](https://github.com/dalmaer/cls-chrome-extension)
 
 ## Installation
 
